@@ -1,0 +1,75 @@
+.page {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+	height: 100vh;
+	font-family: 'Segoe UI', sans-serif;
+}
+
+.card {
+	background: white;
+	max-width: 400px;
+	width: 90%;
+	padding: 2rem;
+	border-radius: 18px;
+	box-shadow: 0 12px 40px rgba(0,0,0,0.12);
+	text-align: center;
+	animation: cardEnter 0.5s ease;
+}
+
+.logo {
+	width: 90px;
+	margin-bottom: 1rem;
+}
+
+.card h1 {
+	color: #ff6600;
+	margin-bottom: 1rem;
+}
+
+.input-wrapper {
+	position: relative;
+	margin: 14px 0;
+}
+
+.input-wrapper input {
+	width: 100%;
+	padding: 12px 14px 12px 40px;
+	border: 1px solid #ccc;
+	border-radius: 25px;
+	font-size: 1rem;
+	background: #f9f9f9;
+	transition: border-color 0.3s;
+}
+
+.input-wrapper input:focus {
+	border-color: #ff6600;
+	outline: none;
+	background: #fffefc;
+}
+
+.input-wrapper .icon {
+	position: absolute;
+	left: 14px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #999;
+	font-size: 16px;
+}
+
+.link {
+	color: #ff6600;
+	cursor: pointer;
+	font-weight: 500;
+	transition: color 0.3s;
+}
+
+.link:hover {
+	color: #cc3500;
+}
+
+@keyframes cardEnter {
+	from { opacity: 0; transform: translateY(30px); }
+	to { opacity: 1; transform: translateY(0); }
+}
