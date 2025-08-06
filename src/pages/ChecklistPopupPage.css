@@ -1,0 +1,112 @@
+.checklist-layout {
+	display: flex;
+	height: 100vh;
+  }
+  
+  .checklist-content {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .checklist-main {
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  /* Progress bar */
+  .progress-bar {
+	display: flex;
+	align-items: center;
+	margin-bottom: 2rem;
+  }
+  
+  .circle {
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	border: 2px solid #ccc;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	background: white;
+  }
+  
+  .circle.active {
+	border-color: #ff7b00;
+	color: #ff7b00;
+  }
+  
+  .circle.completed {
+	border-color: green;
+	color: green;
+  }
+  
+  .line {
+	height: 2px;
+	width: 50px;
+	background-color: #ccc;
+  }
+  
+  /* Step cards */
+  .step-card {
+	background: white;
+	padding: 2rem;
+	border-radius: 6px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
+  
+  .table-card table {
+	border-collapse: collapse;
+	width: 300px;
+  }
+  
+  .table-card td {
+	border: 1px solid #000;
+	padding: 10px;
+	font-size: 14px;
+  }
+  
+  .bold-text {
+	font-weight: bold;
+  }
+  
+  /* Buttons */
+  .orange-btn {
+	background-color: #d96626;
+	border: none;
+	color: white;
+	padding: 8px 16px;
+	border-radius: 4px;
+	font-weight: bold;
+	cursor: pointer;
+  }
+  
+  .orange-btn:hover {
+	background-color: #bf551a;
+  }
+  
+  .black-btn {
+	background-color: black;
+	color: white;
+	padding: 8px 16px;
+	border: none;
+	border-radius: 4px;
+	font-weight: bold;
+	cursor: pointer;
+  }
+  
+  .btn-row {
+	margin-top: 1rem;
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+  }
+  

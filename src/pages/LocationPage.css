@@ -1,0 +1,133 @@
+.location-layout {
+	display: flex;
+	height: 100vh;
+	background: #f3f3f3;
+  }
+  
+  .location-content {
+	flex: 1;
+	padding: 30px 40px;
+	background: #f3f3f3;
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .section-buttons {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 20px;
+  }
+  
+  .section-button {
+	background-color: #ff6600;
+	color: black;
+	border: none;
+	padding: 10px 16px;
+	font-weight: 600;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: background 0.2s;
+  }
+  
+  .section-button:hover {
+	background-color: #e65500;
+  }
+  
+  .location-controls {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+  }
+  
+  .filter-btn {
+	background: #dcdcdc;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 8px;
+	font-weight: bold;
+	cursor: pointer;
+  }
+  
+  .exit-btn {
+	background: #cc3300;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 8px;
+	font-weight: bold;
+	cursor: pointer;
+  }
+  
+  .result-count-top {
+	font-weight: 600;
+	margin-bottom: 10px;
+	text-align: right;
+  }
+  
+  .location-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+	gap: 14px;
+	margin-bottom: 25px;
+  }
+  
+  .location-item {
+	background-color: white;
+	border: 2px solid #ff6600;
+	color: #333;
+	padding: 12px 0;
+	text-align: center;
+	border-radius: 10px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: transform 0.2s ease;
+  }
+  
+  .location-item:hover {
+	transform: scale(1.05);
+  }
+  
+  .pagination-controls {
+	display: flex;
+	justify-content: center;
+	gap: 8px;
+	margin-bottom: 20px;
+  }
+  
+  .page-btn {
+	background: #f2f2f2;
+	border: 1px solid #aaa;
+	padding: 8px 14px;
+	border-radius: 6px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background 0.2s;
+  }
+  
+  .page-btn:hover {
+	background: #ddd;
+  }
+  
+  .footer-buttons {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	margin-top: auto;
+	padding-top: 20px;
+  }
+  
+  .footer-btn {
+	background: #ff6600;
+	color: white;
+	border: none;
+	padding: 10px 25px;
+	border-radius: 8px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background 0.2s;
+  }
+  
+  .footer-btn:hover {
+	background: #cc3300;
+  }
+  

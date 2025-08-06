@@ -1,0 +1,108 @@
+.location-detail-layout {
+	display: flex;
+	background-color: #d9d9d9;
+	min-height: 100vh;
+	font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .location-detail-content {
+	flex: 1;
+	padding: 2rem;
+  }
+  
+  .location-detail-box {
+	background: #fff;
+	max-width: 600px;
+	margin: 60px auto;
+	padding: 30px 40px;
+	border-radius: 6px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+	text-align: center;
+  }
+  
+  .location-detail-box h2 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 30px;
+  }
+  
+  .location-form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	text-align: left;
+  }
+  
+  .form-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+  }
+  
+  .checkbox-row {
+	justify-content: space-between;
+	gap: 10px;
+  }
+  
+  .checkbox-row label,
+  .form-row label {
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	font-size: 14px;
+	flex: 1;
+  }
+  
+  .input-with-suffix {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	flex: 2;
+  }
+  
+  .input-with-suffix input,
+  .input-with-suffix select,
+  input[type="text"] {
+	padding: 6px 8px;
+	font-size: 14px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+  }
+  
+  input[type="text"] {
+	width: 100%;
+  }
+  
+  .input-with-suffix select {
+	width: 60px;
+  }
+  
+  .form-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 30px;
+  }
+  
+  .nav-btn {
+	background: #fff;
+	border: 1px solid #000;
+	border-radius: 4px;
+	padding: 6px 18px;
+	font-weight: 500;
+	cursor: pointer;
+  }
+  
+  .add-btn {
+	background: linear-gradient(to bottom, #f79c2e, #9c470f);
+	color: #fff;
+	padding: 8px 36px;
+	font-weight: bold;
+	border-radius: 20px;
+	border: none;
+	margin: 0 auto;
+	display: block;
+  }
+  
